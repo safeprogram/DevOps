@@ -1,0 +1,13 @@
+branches:
+-main
+-master
+-develope
+
+pull_request: 
+branches(main, master, develope)
+
+#quais trabalhos a serem executados pelo workflow?
+jobs:
+trabalho: 
+name: Job 1
+run ou users: echo "Executando o primeiro passo"
